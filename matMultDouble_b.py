@@ -38,8 +38,8 @@ for i in range(0,100):
 
 
 
-print("Execution time of matMultDouble part a: ",time_ex_d)
-print("CPU time of matMultDouble part a: ",time_CPU_d)
+print("Execution time of matMultDouble part b: ",time_ex_d)
+print("CPU time of matMultDouble part b: ",time_CPU_d)
 
 
 

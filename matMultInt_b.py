@@ -35,8 +35,8 @@ for i in range(0,100):
     
     time_CPU_int += t_end - t_st 
 
-print("Execution time of matMultInt part a: ",time_ex_int)
-print("CPU time of matMultInt part a: ",time_CPU_int)
+print("Execution time of matMultInt part b: ",time_ex_int)
+print("CPU time of matMultInt part b: ",time_CPU_int)
 
 
 
