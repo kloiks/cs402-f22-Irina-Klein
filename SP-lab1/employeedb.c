@@ -48,7 +48,6 @@ int main (int argc, char *argv[])
       printf("----------------------------------\n");
       printf("Enter your choice: ");
 
-      //scanf("%d", &option); // scan chosen option
       read_int (&option);
       // analyse the option choice
       switch (option) {
@@ -122,7 +121,7 @@ int add_employee(struct employee db[])
 
     if (strlen(addfirst_name) > 64 || strlen(addlast_name) > 64 || addsalary < 30000 || addsalary > 150000)
     {
-        printf("Invalid entry.\n");
+        printf("Invalid entry\n");
         add_employee (employees);
         return -1;
     }
